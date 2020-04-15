@@ -1,0 +1,19 @@
+Note that the SVM runs in jupyter notebook. You can access this environment even through web.
+
+
+# Before working with Python, load the virtual environment
+source /.../NaiveBayes/Python_Files/.venv/parma/bin/activate
+
+# While in the folder /.../parma/NaiveBayes/Python_Files, start the jupyter notebook with
+jupyter notebook
+
+
+# 1. Download the parts from Hadoop hdfs for the epsilon into the /.../parma/NaiveBayes/Python_Files/data folder
+
+# 2. If multiple files are present (part-r-*), concatenate them into a single file
+cat part-r-00000-0.6 part-r-00001-0.6 > combined_0.6.dat
+
+# 3. Modify the current_epsilon value and Do 'Kernel -> Restart and Run All'
+
+
+
