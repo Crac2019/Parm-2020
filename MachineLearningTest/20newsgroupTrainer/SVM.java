@@ -1,4 +1,3 @@
-// https://raw.githubusercontent.com/tanmayghosh2507/naive-bayes-20newsgroup-classification/master/src/NaiveBayes.java
 import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigDecimal;
